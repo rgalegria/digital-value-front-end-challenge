@@ -8,7 +8,7 @@ import AreaChartTooltip from "../CustomTooltips/AreaChartTooltip/AreaChartToolti
 // Styles
 import styles from "./AreaChartComp.module.css";
 
-const AreaChartComp = ({ data }) => {
+const AreaChartComp = ({ data, globalData }) => {
     return (
         <div className={styles.wrapper}>
             <ResponsiveContainer width="100%" height={450}>
@@ -42,7 +42,7 @@ const AreaChartComp = ({ data }) => {
                         tickCount={6}
                         tickFormatter={(number) => `${number / 1000000} M`}
                     />
-                    <Tooltip content={<AreaChartTooltip />} />
+                    <Tooltip content={<AreaChartTooltip globalData={globalData} />} />
                     <CartesianGrid opacity={0.1} vertical={false} />
                 </AreaChart>
             </ResponsiveContainer>

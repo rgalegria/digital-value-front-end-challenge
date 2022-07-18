@@ -40,3 +40,14 @@ export const findByProperty = (value = "", array = [], key = "id") => {
     if (foundObj) return foundObj;
     else return false;
 };
+
+/**
+ * Calculates the average percentage variation between two given values.
+ * @param {Number} newVal Latest value
+ * @param {Number} oldVal Comparison value
+ * @returns Percentqge number with two decimals
+ */
+export const calAvgPercentage = (newVal, oldVal) => {
+    const percentage = Math.abs(((newVal - oldVal) / oldVal) * 100).toFixed(2);
+    return parseFloat(percentage);
+};

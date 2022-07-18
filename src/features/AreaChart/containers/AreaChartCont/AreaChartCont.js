@@ -6,6 +6,7 @@ import { sortArray, filterByMonthSpan, findByProperty } from "../../../../utils/
 import SpanFilterBtns from "../../components/SpanFilterBtns/SpanFilterBtns";
 import AreaChartComp from "../../../../components/AreaChartComp/AreaChartComp";
 import CategoriesBtns from "../../components/CategoriesBtns/CategoriesBtns";
+import Disclaimer from "../../components/Disclaimer/Disclaimer";
 
 // Styles
 import styles from "./AreaChartCont.module.css";
@@ -112,8 +113,12 @@ const AreaChartCont = () => {
                             activeBtn={activeCategory}
                             onClick={filterByCategoryHandler}
                         />
-                        <AreaChartComp data={chartData} />
+                        <AreaChartComp
+                            data={chartData}
+                            globalData={findByProperty(activeCategory, globalData, "id").data}
+                        />
                     </div>
+                    <Disclaimer />
                 </div>
             )}
         </>
