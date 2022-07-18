@@ -27,3 +27,16 @@ export const filterByMonthSpan = (array, monthSpan = null) => {
         if (maxDate >= new Date(obj.date) && minDate <= new Date(obj.date)) return obj;
     });
 };
+
+/**
+ * Finds object in array for a given key = value pair.
+ * @param {Any} value Value to be used to compare (defaults to an empty string).
+ * @param {Array} array The array which contains the desired data.
+ * @param {String} key The key to be used to search (defaults to id).
+ * @returns Found object if exists or false if it doesn't.
+ */
+export const findByProperty = (value = "", array = [], key = "id") => {
+    const foundObj = array.find((obj) => obj[key] === value);
+    if (foundObj) return foundObj;
+    else return false;
+};

@@ -2,7 +2,7 @@
 
 ## Front-end
 
-Le backend a été crée avec **React.js**, **Date-fns** et **Axios**.
+Le front-end a été crée avec **React.js**, **Date-fns** et **Axios**.
 <br />
 
 ### Installation

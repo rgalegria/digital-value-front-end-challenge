@@ -8,3 +8,14 @@
     display: inherit;
     margin: 0 0 auto auto;
 }
+
+.title {
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin: 0 auto auto 1rem;
+    color: #bfbfbfd0;
+}
+
+.btn {
+    width: 4.8rem;
+}

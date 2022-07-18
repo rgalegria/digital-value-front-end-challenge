@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 16%;
+    overflow-y: auto;
+    height: 450px;
+    margin-right: auto;
+    border-right: 1px solid #bfbfbf38;
+}
+
+.wrapper {
+    display: inherit;
+    margin: 0 0 auto auto;
+}
+
+.btn {
+    height: 100%;
+}
+
+.btnWrapper {
+    margin: auto auto auto 0;
+}

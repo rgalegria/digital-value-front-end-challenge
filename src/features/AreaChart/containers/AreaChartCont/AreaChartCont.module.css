@@ -1,4 +1,8 @@
 .container {
-    width: 85%;
-    margin: 8rem auto;
+    width: 95%;
+    margin: 6.4rem auto;
+}
+
+.wrapper {
+    display: flex;
 }
