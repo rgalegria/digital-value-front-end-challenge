@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.6rem;
+    background-color: #15121d;
+    box-shadow: 0px 0px 30px 0px #00000030;
+    width: 90%;
+    margin: 6.4rem auto;
+}
+
+/*---------------------------------*/
+/*         _scrollbar.scss        */
+/*-------------------------------*/
+
+.container::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background: #00d5b1;
+}

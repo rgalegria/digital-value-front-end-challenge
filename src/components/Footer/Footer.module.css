@@ -1,0 +1,14 @@
+.footer {
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+    height: 4.8rem;
+    margin-top: auto;
+}
+
+.text {
+    font-size: 1.4rem;
+    display: flex;
+    margin: auto;
+    color: #686868;
+}

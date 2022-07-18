@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    height: 8rem;
+    margin: auto;
+}
+
+.wrapper {
+    display: inherit;
+    margin: 0 0 auto auto;
+}

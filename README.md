@@ -1,34 +1,28 @@
-# Digital Value Frontend Challenge 
+# [GOMEZ, Ricardo] - Digital Value Front-end Challenge
 
-Welcome to the Digital Value Frontend Challenge! Thank for your interest in participating in our selection process.
+## Front-end
 
-## Goal
+Le backend a été crée avec **React.js**, **Date-fns** et **Axios**.
+<br />
 
-The objective is to implement a simple data visualization application that must display the evolution of the online demand for a given selection of keywords (ie. the search volume).
+### Installation
 
-Each level of the challenge is based on top of the previous one, so you can leverage what you already did.
+-   Dans le terminal de VSCode, situez-vous dans le dossier root `/`.
+    <br />
+-   Démarrez `npm install` pour installer toutes les dependencies du front-end.
+    <br />
 
-We don't expect you to be an expert designer, but we want to see if you're comfortable with web design principles to build a pleasant and performant user experience.
+### Serveur de développement
 
-## Guidelines
+Démarrez le serveur avec la commande `npm start` pour avoir accès au serveur de développement. L'application va se recharger automatiquement si vous modifiez un fichier source.
 
-- Clone the repo
-- Implement each level in ascending order (last two levels are optional)
-- Commit at the end of each level
-- Provide instructions to run each level of the challenge
-- Host the highest level achieved of the challenge
+### Naviguer entre niveaux
 
-## Rules
+Sur git, utilisez la commande `git checkout` + identifieur **SHA1** du commit pour naviguer entre les differents niveaux du challenge.
 
-- Angular is preferred but React or Vue.js is also accepted
-- Use version control to deliver the test
-- You can use any libs (JavaScript and CSS)
-
-## What will be evaluated?
-
-- Clean, robust and well-organized code (JavaScript and CSS)
-- Compliance with guidelines
-- Page layout and relevance of UX decision
-- Friendly user interface
-
-Let's get started! Go to [First level](level1)
+-   `SHA1 Level 1` -
+    <br />
+-   `SHA1 Level 2` -
+    <br />
+-   `SHA1 Level 3` -
+    <br />
